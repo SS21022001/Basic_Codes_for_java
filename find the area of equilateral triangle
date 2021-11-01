@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class area
+{    
+public static void main(String args[])   
+{        
+Scanner sc=new Scanner(System.in);        
+double a,b,c,Area =0;        
+System.out.println("a = ");        
+a=sc.nextDouble();        
+c=Math.sqrt(3);
+b=Math.pow(a,2);
+Area= (b*c)/4 ;        
+System.out.println(" Area is"+Area );    
+}
+}
