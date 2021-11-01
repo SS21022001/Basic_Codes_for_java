@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class diagonal
+{    
+public static void main(String args[])   
+{        
+Scanner sc=new Scanner(System.in);        
+double l,b,c,diagonal=0;        
+System.out.println("length is ");        
+l=sc.nextDouble();        
+System.out.println("bredth is ");        
+b=sc.nextDouble();        
+c=l*b;        
+diagonal=Math.sqrt(c);        
+System.out.println("diagonal is"+diagonal);    
+}
+}
