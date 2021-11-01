@@ -1,0 +1,7 @@
+import java.util.*;
+class hello{                                    //Always save the file in the name of class
+public static void main(string[]args)           //In this case the file will be saved on under the name of hello.java
+{
+system.out.println("Hello World!);
+}
+]
