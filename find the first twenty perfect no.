@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class perfect
+{    
+public static void main(String args[])   
+{        
+Scanner sc=new Scanner(System.in);        
+int a=1,i,j,sum=0;        
+System.out.println("the first 20 perfect no. are ");               
+for(i=1; a <= 20; i++)
+{sum=0;
+for(j=1; j<i ;j++)
+{
+if(i%j == 0)
+{
+sum = sum + j;
+}
+}
+if(sum==i)
+System.out.println(i);
+}
+}
+}
