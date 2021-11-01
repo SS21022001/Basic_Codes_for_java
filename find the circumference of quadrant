@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class circumference
+{    
+public static void main(String args[])   
+{        
+Scanner sc=new Scanner(System.in);        
+double r,circumference=0;        
+System.out.println(“radius = ");        
+r=sc.nextDouble();        
+circumference=(3.14*r/2)+r+r;        
+System.out.println(" circumference is"+ circumference);    
+}
+}
